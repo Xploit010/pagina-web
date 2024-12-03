@@ -1,0 +1,106 @@
+body {
+    /* ruta de imagen */
+    background-image: url(https://www.ucatalunya.edu.co/img/blog/ciberseguridad-y-hacking-etico-conceptos-herramientas-y-casos-de-exito.jpg);
+    /* evita que la imagen se repita */
+    background-repeat: no-repeat;
+    /* centra la imagen en la pantalla */
+    background-position: center height 100%;
+    /* establece el tamaño de la imagen en pantalla */
+    background-size: 100% 340px;
+}
+h1 {
+    text-transform: uppercase;
+    text-align: center;
+}
+del{
+    display: flex;
+    justify-content: space-around;
+}
+span {
+    background-color: rgb(156, 156, 173);
+}
+#contador{
+    background-color: rgb(10, 238, 121);
+}
+.image {
+    /* el display: block; + margin: auto; se encargan de centrar la imagen igual que hacer un text-align: center; */
+    display: block;
+    margin: auto;
+    /* width es ancho la imagen */
+    width: 300px;
+    /* height es alto la imagen */
+    height: 300px;
+    /* este da estilo de circulo a la imagen */
+    border-radius: 50%;
+    /* fija la imagen */
+    padding: 40px;
+
+}
+.Galery {
+    /* para hacer que el texto parezca mas abajo la imagen */
+    padding-top: 60px;
+}
+
+.historia {
+    font-size: 24px;
+    /* se utiliza para reducir el texto si esta muy ancho texto */
+    max-width: 600px;
+    /* centra el texto */
+    margin: auto;
+    margin-top: 50px;
+    position: relative;
+}
+
+.hacker {
+    font-size: 24px;
+    max-width: 600px;
+    margin: auto;
+}
+
+body {
+    text-align: center;
+}
+.lista {
+    font-size: 24px;
+    display: block;
+    margin: auto;
+    padding-top: 1%;
+}
+a {
+    color: black;
+    font-size: 24px;
+    /* define el grosor de la fuente */
+    font-weight: bold;
+}
+table {
+    border: 4px solid black;
+    border-collapse: collapse;
+    width: 40%;
+    margin: 0 auto;
+}
+th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+}
+.unico {
+    border: 3px solid red;
+    border-collapse: collapse;
+    padding: 10px;
+}
+.Datos {
+    font-size: 24px;
+    background-attachment: fixed;
+    background-color: green !important;
+    background-position: center;
+}
+.uso {
+    display: flex;
+    justify-content: center;
+    align-self: auto;
+}
+.uso img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}

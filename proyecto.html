@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi primera pagina</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="icon" href="./assets/img/icon.jpg" title="icon" type="image/icon" sizes="16x16">
+</head>
+
+<body>
+    <!-- en el tag main representa contenido principal se incluye secciones como article, section, div -->
+    <main>
+        <div class="Galery">
+            <img src="https://media.istockphoto.com/id/1386179512/es/foto/hacker-de-computadora-robar-datos-de-un-ordenador-port%C3%A1til.jpg?s=612x612&w=0&k=20&c=d3uC6Jfeelm1qntfJ1TBk0atLZzf8nHhLbZ_VSNVEjc="
+                alt="image/jpg" class="image">
+        </div>
+        <h1 style="color:black;"><del>Hacking Etico<span>!!!</span></del></h1>
+        <p class="historia">
+            <i>Seguro que alguna vez has oído la palabra “Hacker” o “Pirata Informático” y que lo más probable es que la
+                imagen que se te venga a la cabeza al pronunciar este nombre sea la de una persona trabajando en su
+                ordenador a altas horas de la noche sustrayendo grandes cantidades de dinero o accediendo a alguna red
+                privada de altísimo nivel. Esta representación que transmiten películas o series no tiene nada que ver
+                con la realidad porque erróneamente se ha encasillado a los hackers en una sola comunidad. Sin embargo,
+                existe una clasificación en base a sus intenciones para poder diferenciarlos!</i>
+        </p>
+        <div>
+            <h2 style="color: black;">Que es un hacker</h2>
+            <p class="hacker">
+                <i>Un hacker es una persona que utiliza sus habilidades informáticas para robar, modificar, o manipular
+                    sistemas, aplicaciones, o datos de otros usuarios o sistemas. El término hacker se utilizó en la era
+                    digital en la década de 1960, y ahora se utiliza para referirse a cualquier persona que utiliza sus
+                    habilidades informáticas para robar, modificar, o manipular sistemas, aplicaciones, si quieres
+                    empezar
+                    aprender en el enlace que esta abajo de dejo un curso:</b>
+            </p>
+            <br>
+            <h2 style="color: black;">Tipos de hacker</h2>
+            <ol style="max-width: 600px; text-align: left;" class="lista">
+                <li><b>Crackers:</b> Son hackers que utilizan la tecnología para robar contraseñas de cuentas de
+                    sistemas.</li>
+                <li><b>Piratas informáticos:</b> Son hackers que utilizan la tecnología para robar, modificar, o
+                    manipular
+                    sistemas,
+                    aplicaciones, o datos de otros usuarios o sistemas.</li>
+                <li><b>Vigilantes:</b> Son hackers que utilizan la tecnología para robar, modificar, o manipular
+                    sistemas,
+                    aplicaciones, o datos de otros usuarios o sistemas para obtener información confidencial o para
+                    proteger
+                    los sistemas.</li>
+            </ol>
+        </div>
+
+    </main>
+    <br>
+    <a href="https://www.dragonjar.org/formacion" target="_blank" alt="Cursos">Click Aqui</a>
+    <section class="video-container">
+        <br>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/mEmkkh14WnA?si=XmwdHQ_uWSzOOq7T"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen autoplay="1" aria-controls="0"></iframe>
+    </section>
+    <br>
+    <p class="Tipos de hacker" id="tipos">
+        <i><b>Existen varios tipos de hackers según sus intenciones y objetivos:</b></i>
+    </p>
+    <br>
+    <table class="hackers">
+        <thead>
+            <tr>
+                <th>Tipo de hacker</th>
+                <th class="unico">Intenciones</th>
+                <th>Objetivos</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    <h6>Cracker</h6>
+                </td>
+                <td>Robar contraseñas de cuentas de sistemas</td>
+                <td>Obtener información confidencial</td>
+            </tr>
+            <tr>
+                <td>Pirata informático</td>
+                <td>Robar, modificar, o manipular sistemas, aplicaciones, o datos de otros usuarios o sistemas</td>
+                <td>Obtener información confidencial o para proteger los sistemas</td>
+            </tr>
+            <tr>
+                <td>Vigilante</td>
+                <td>Robar, modificar, o manipular sistemas, aplicaciones, o datos de otros usuarios o sistemas para
+                    obtener
+                    información confidencial o para proteger los sistemas</td>
+                <td>Obtener información confidencial o para proteger los sistemas
+        </tbody>
+    </table>
+    <div class="uso">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDOwyKOiGndw55UOjZH67uoNIkOkADQJv74Q&s" alt="">
+        <img src="https://www.shutterstock.com/image-vector/spy-agent-hacker-anonymous-white-600nw-1722014434.jpg"
+            alt="">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQr6XZ7Z9wxpE5F8u6C-EdAmrhUlDCKD1OOqg&s" alt="">
+    </div>
+    <br>
+    <form action="">
+        <fieldset>
+            <legend class="Datos"><b>Coloca tus datos para mas informacion</b></legend>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+            <label for="apellido">Apellido:</label>
+            <input type="text" id="apellido" name="apellido" required>
+            <label for="email">Correo electrónico:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="telefono">Teléfono:</label>
+            <input type="tel" id="telefono" name="telefono" required>
+            <input type="submit" value="Enviar">
+
+        </fieldset>
+    </form>
+    <aside>
+        <h1>Contador: <span id="contador">0</span></h1>
+
+        <button onclick="incrementar()">Incrementar</button>
+        <button onclick="decrementar()">Decrementar</button>
+        <button onclick="reiniciar()">Reiniciar</button>
+    </aside>
+    <button type="button" id="miBoton">Click</button>
+    <script src="console/scripts.js"></script><h1>2</h1>
+</body>
+
+</html>
